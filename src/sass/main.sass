@@ -1,0 +1,208 @@
+@import 'variables'
+
+body
+    font-family: 'Montserrat', sans-serif
+    padding: 0
+    margin: 0
+
+    /* start of commen elements */
+    .header-title
+        font-family: 'Montserrat', sans-serif
+        font-size: 18px
+        display: inline-block
+        padding: 0 0 15px 0
+        border-bottom: 1px solid $bordermian
+        color: $maincolor
+        text-transform: uppercase
+
+    .conetnt-list
+        margin: 0
+        padding: 0
+        list-style: none
+
+        li
+            padding: 20px 0
+            position: relative
+            &:before
+                content: '\f06d'
+                font-family: FontAwesome
+                display: inline-block
+                margin-left: -1.5em
+                position: absolute
+                transition: all 0.4s ease-in-out
+            &:last-child
+                &:before
+                    content: ''
+            &:hover
+                .article-project-title
+                    color: $maincolor
+                
+                &:before
+                    content: '\f024'
+                    font-family: FontAwesome
+                    color: $maincolor
+                &:last-child
+                    &:before
+                        content: ''
+            a
+                text-decoration: none
+                color: $listcolor
+                .article-project-title
+                    display: block
+                    margin-bottom: 5px
+                    transition: all 0.5s ease-in-out
+                    
+
+            .article-project-date
+                font-size: 12px
+                color: $bordermian
+            .article-project-author
+                font-size: 12px
+                color: $bordermian
+                padding: 0 6px
+                .author-name
+                    color: $mainfontcolor
+                    margin: 0 0 0 10px
+            a
+                .article-project-morelink
+                    
+                    color: $morelinks
+                    i
+                        padding: 0 10px
+                        font-size: 18px
+                        transform: translate(0, 0)
+                        transition: all 0.4s ease-in-out
+                    &:hover
+                        color: $darkred
+                        i
+                            transform: translate(20px, 0)
+            
+    
+    /* end of commen elements */
+
+    header.main-header
+        width: 100%
+        height: 80px
+        display: block
+        border-bottom: 1px solid $bordermian
+
+        .logo
+            width: 230px
+            height: 41px
+            display: block
+            float: left
+            margin: 18px 45px
+
+        .main-nav
+            ul.navigation
+                float: right
+                list-style: none
+                margin-right: 32px
+                li
+                    display: inline-block
+                    padding: 14px 20px
+                    a
+                        text-decoration: none
+                        color: $mainfontcolor
+                        transition: all 0.4s ease-in-out
+                        &:hover
+                            color: $maincolor
+    .status-display
+        width: 100%
+        height: 60px
+        display: block
+    
+    .banner-display
+        width: 100%
+        height: 280px
+        display: block
+        margin-bottom: 40px
+
+        .bannerWrap
+            display: block
+            height: 280px
+            margin: 0 50px
+            background-image: url('../files/images/samplebanner.jpg')
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: 50% 50%
+            position: relative
+
+            .banner-info
+                font-family: 'Raleway', sans-serif
+                position: absolute
+                bottom: 0
+                right: 0
+                margin: 20px
+                
+                .banner-title
+                    font-size: 18px
+                    font-weight: 300 !important
+                    color: $maincolor
+                    display: block
+
+                .subtitle
+                    font-size: 12px
+                    color: #cecece
+                    .designer-name
+                        margin: 0 0 0 10px
+                        font-size: 15px
+
+    .section-one-wrapper
+        height: auto
+        margin: 0 50px
+        /*background: $bordermian*/
+        display: flex
+
+        .aboutsection
+            width: 40%
+            padding: 20px 75px 20px 10px
+            .section-header
+                .header-title
+                    color: $mainfontcolor
+            .content
+                .basic-para
+                    line-height: 2
+
+        .content-inner-wrapper
+            width: 60%
+            padding: 20px 0 20px 20px
+            display: flex
+
+            .Articles
+                width: 50%
+                padding: 0 20px 0 0 
+                .section-header
+
+                .content
+                                        
+            .Projects
+                width: 50%
+                padding: 0 0 0 20px
+    
+    .footer
+        width: 100%
+        height: 80px
+        display: block
+        border-top: 1px solid $bordermian
+        
+        .logo
+            width: 160px
+            display: block
+            float: left
+            margin: 26px 45px
+
+        .main-nav
+            ul.navigation
+                float: right
+                list-style: none
+                margin-right: 32px
+                li
+                    display: inline-block
+                    padding: 14px 20px
+                    a
+                        text-decoration: none
+                        color: $mainfontcolor
+                        transition: all 0.4s ease-in-out
+                        &:hover
+                            color: $maincolor

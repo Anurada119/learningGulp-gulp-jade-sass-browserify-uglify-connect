@@ -1,0 +1,214 @@
+/* line 3, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  /* start of commen elements */
+  /* end of commen elements */ }
+  /* line 9, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body .header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #cecece;
+    color: #ff606f;
+    text-transform: uppercase; }
+  /* line 18, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body .conetnt-list {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    /* line 23, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body .conetnt-list li {
+      padding: 20px 0;
+      position: relative; }
+      /* line 26, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li:before {
+        content: '\f06d';
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.5em;
+        position: absolute;
+        transition: all 0.4s ease-in-out; }
+      /* line 34, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li:last-child:before {
+        content: ''; }
+      /* line 37, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li:hover .article-project-title {
+        color: #ff606f; }
+      /* line 40, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li:hover:before {
+        content: '\f024';
+        font-family: FontAwesome;
+        color: #ff606f; }
+      /* line 45, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li:hover:last-child:before {
+        content: ''; }
+      /* line 47, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li a {
+        text-decoration: none;
+        color: #404553; }
+        /* line 50, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .conetnt-list li a .article-project-title {
+          display: block;
+          margin-bottom: 5px;
+          transition: all 0.5s ease-in-out; }
+      /* line 56, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li .article-project-date {
+        font-size: 12px;
+        color: #cecece; }
+      /* line 59, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li .article-project-author {
+        font-size: 12px;
+        color: #cecece;
+        padding: 0 6px; }
+        /* line 63, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .conetnt-list li .article-project-author .author-name {
+          color: #333333;
+          margin: 0 0 0 10px; }
+      /* line 67, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .conetnt-list li a .article-project-morelink {
+        color: #222222; }
+        /* line 70, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .conetnt-list li a .article-project-morelink i {
+          padding: 0 10px;
+          font-size: 18px;
+          transform: translate(0, 0);
+          transition: all 0.4s ease-in-out; }
+        /* line 75, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .conetnt-list li a .article-project-morelink:hover {
+          color: #9d2121; }
+          /* line 77, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+          body .conetnt-list li a .article-project-morelink:hover i {
+            transform: translate(20px, 0); }
+  /* line 83, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body header.main-header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    border-bottom: 1px solid #cecece; }
+    /* line 89, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body header.main-header .logo {
+      width: 230px;
+      height: 41px;
+      display: block;
+      float: left;
+      margin: 18px 45px; }
+    /* line 97, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body header.main-header .main-nav ul.navigation {
+      float: right;
+      list-style: none;
+      margin-right: 32px; }
+      /* line 101, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body header.main-header .main-nav ul.navigation li {
+        display: inline-block;
+        padding: 14px 20px; }
+        /* line 104, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body header.main-header .main-nav ul.navigation li a {
+          text-decoration: none;
+          color: #333333;
+          transition: all 0.4s ease-in-out; }
+          /* line 108, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+          body header.main-header .main-nav ul.navigation li a:hover {
+            color: #ff606f; }
+  /* line 110, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body .status-display {
+    width: 100%;
+    height: 60px;
+    display: block; }
+  /* line 115, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body .banner-display {
+    width: 100%;
+    height: 280px;
+    display: block;
+    margin-bottom: 40px; }
+    /* line 121, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body .banner-display .bannerWrap {
+      display: block;
+      height: 280px;
+      margin: 0 50px;
+      background-image: url("../files/images/samplebanner.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+      position: relative; }
+      /* line 131, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .banner-display .bannerWrap .banner-info {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 20px; }
+        /* line 138, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .banner-display .bannerWrap .banner-info .banner-title {
+          font-size: 18px;
+          font-weight: 300 !important;
+          color: #ff606f;
+          display: block; }
+        /* line 144, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .banner-display .bannerWrap .banner-info .subtitle {
+          font-size: 12px;
+          color: #cecece; }
+          /* line 147, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+          body .banner-display .bannerWrap .banner-info .subtitle .designer-name {
+            margin: 0 0 0 10px;
+            font-size: 15px; }
+  /* line 151, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body .section-one-wrapper {
+    height: auto;
+    margin: 0 50px;
+    /*background: $bordermian*/
+    display: flex; }
+    /* line 157, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body .section-one-wrapper .aboutsection {
+      width: 40%;
+      padding: 20px 75px 20px 10px; }
+      /* line 161, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .section-one-wrapper .aboutsection .section-header .header-title {
+        color: #333333; }
+      /* line 164, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .section-one-wrapper .aboutsection .content .basic-para {
+        line-height: 2; }
+    /* line 167, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body .section-one-wrapper .content-inner-wrapper {
+      width: 60%;
+      padding: 20px 0 20px 20px;
+      display: flex; }
+      /* line 172, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .section-one-wrapper .content-inner-wrapper .Articles {
+        width: 50%;
+        padding: 0 20px 0 0; }
+      /* line 179, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .section-one-wrapper .content-inner-wrapper .Projects {
+        width: 50%;
+        padding: 0 0 0 20px; }
+  /* line 183, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+  body .footer {
+    width: 100%;
+    height: 80px;
+    display: block;
+    border-top: 1px solid #cecece; }
+    /* line 189, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body .footer .logo {
+      width: 160px;
+      display: block;
+      float: left;
+      margin: 26px 45px; }
+    /* line 196, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+    body .footer .main-nav ul.navigation {
+      float: right;
+      list-style: none;
+      margin-right: 32px; }
+      /* line 200, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+      body .footer .main-nav ul.navigation li {
+        display: inline-block;
+        padding: 14px 20px; }
+        /* line 203, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+        body .footer .main-nav ul.navigation li a {
+          text-decoration: none;
+          color: #333333;
+          transition: all 0.4s ease-in-out; }
+          /* line 207, C:/Users/i'm Batman/Documents/GulpProject1/src/sass/main.sass */
+          body .footer .main-nav ul.navigation li a:hover {
+            color: #ff606f; }
